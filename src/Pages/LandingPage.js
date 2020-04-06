@@ -326,20 +326,38 @@ export default function LandingPage() {
 								justifyContent="flex-start"
 								flexWrap="wrap"
 							>
-								<PhoneIcon
-									style={{
-										height: 350,
-										width: 350,
-										color: 'grey',
-									}}
-								></PhoneIcon>
+								<Box
+									display="flex"
+									flexDirection="row"
+									justifyContent="flex-start"
+									flexWrap="wrap"
+								>
+									<Typography
+										variant="h2"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{
+											fontFamily: 'open sans',
+										}}
+									>
+										1.
+									</Typography>
+									<PhoneIcon
+										style={{
+											height: 350,
+											width: 350,
+											color: 'grey',
+										}}
+									></PhoneIcon>
+								</Box>
 								{/* <p>Anrufen</p> */}
 								<Typography
 									variant="p"
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400 }}
+									style={{ maxWidth: 400, fontSize: 20 }}
 								>
 									Anrufen Something short and leading about
 									the collection below—its contents, the
@@ -357,6 +375,7 @@ export default function LandingPage() {
 									skip over it entirely.
 								</Typography>
 							</Box>
+
 							<ReplyIcon
 								// className={classes.icon}
 								style={{
@@ -394,13 +413,31 @@ export default function LandingPage() {
 								justifyContent="flex-start"
 								flexWrap="wrap"
 							>
-								<SupervisorAccountIcon
-									style={{
-										height: 350,
-										width: 350,
-										color: 'grey',
-									}}
-								></SupervisorAccountIcon>
+								<Box
+									display="flex"
+									flexDirection="row"
+									justifyContent="flex-start"
+									flexWrap="wrap"
+								>
+									<Typography
+										variant="h2"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{
+											fontFamily: 'open sans',
+										}}
+									>
+										2.
+									</Typography>
+									<SupervisorAccountIcon
+										style={{
+											height: 350,
+											width: 350,
+											color: 'grey',
+										}}
+									></SupervisorAccountIcon>
+								</Box>
 								<Typography
 									variant="p"
 									align="center"
@@ -437,13 +474,31 @@ export default function LandingPage() {
 								justifyContent="flex-start"
 								flexWrap="wrap"
 							>
-								<LocationOn
-									style={{
-										height: 350,
-										width: 350,
-										color: 'grey',
-									}}
-								></LocationOn>
+								<Box
+									display="flex"
+									flexDirection="row"
+									justifyContent="flex-start"
+									flexWrap="wrap"
+								>
+									<Typography
+										variant="h2"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{
+											fontFamily: 'open sans',
+										}}
+									>
+										3.
+									</Typography>
+									<LocationOn
+										style={{
+											height: 350,
+											width: 350,
+											color: 'grey',
+										}}
+									></LocationOn>
+								</Box>
 								<Typography
 									variant="p"
 									align="center"
@@ -506,13 +561,31 @@ export default function LandingPage() {
 								justifyContent="flex-start"
 								flexWrap="wrap"
 							>
-								<EuroSymbol
-									style={{
-										height: 350,
-										width: 350,
-										color: 'grey',
-									}}
-								></EuroSymbol>
+								<Box
+									display="flex"
+									flexDirection="row"
+									justifyContent="flex-start"
+									flexWrap="wrap"
+								>
+									<Typography
+										variant="h2"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{
+											fontFamily: 'open sans',
+										}}
+									>
+										4.
+									</Typography>
+									<EuroSymbol
+										style={{
+											height: 350,
+											width: 350,
+											color: 'grey',
+										}}
+									></EuroSymbol>
+								</Box>
 								<Typography
 									variant="p"
 									align="center"
@@ -549,14 +622,31 @@ export default function LandingPage() {
 								justifyContent="flex-start"
 								flexWrap="wrap"
 							>
-								<DirectionsTransitIcon
-									style={{
-										height: 350,
-										width: 350,
-										color: 'grey',
-									}}
-								></DirectionsTransitIcon>
-
+								<Box
+									display="flex"
+									flexDirection="row"
+									justifyContent="flex-start"
+									flexWrap="wrap"
+								>
+									<Typography
+										variant="h2"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{
+											fontFamily: 'open sans',
+										}}
+									>
+										5.
+									</Typography>
+									<DirectionsTransitIcon
+										style={{
+											height: 350,
+											width: 350,
+											color: 'grey',
+										}}
+									></DirectionsTransitIcon>
+								</Box>
 								<Typography
 									variant="p"
 									align="center"
