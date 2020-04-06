@@ -53,14 +53,6 @@ function Copyright() {
 	);
 }
 
-// const styles = (theme) => ({
-// 	siegel: {
-// 		[theme.breakpoints.up('md')]: {
-// 			display: 'none',
-// 		},
-// 	},
-// });
-
 const useStyles = makeStyles((theme) => ({
 	picture: {
 		backgroundImage: `url(${Dirk})`,
@@ -71,7 +63,11 @@ const useStyles = makeStyles((theme) => ({
 		display: 'flex',
 		justifyContent: 'flex-end',
 	},
-	icon: {},
+	icon1: {
+		[theme.breakpoints.down('sm')]: {
+			display: 'none',
+		},
+	},
 	anruf: {
 		backgroundColor: 'white',
 	},
@@ -392,7 +388,7 @@ export default function LandingPage() {
 							</Box>
 
 							<ReplyIcon
-								// className={classes.icon}
+								className={classes.icon1}
 								style={{
 									// transform: 'rotate(240deg)',
 									// marginLeft: 90,
@@ -411,7 +407,7 @@ export default function LandingPage() {
 							className={classes.expert}
 						>
 							<ReplyIcon
-								// className={classes.icon}
+								className={classes.icon1}
 								style={{
 									// transform: 'rotate(240deg)',
 									// marginLeft: 90,
@@ -544,7 +540,7 @@ export default function LandingPage() {
 							</Box>
 
 							<ReplyIcon
-								// className={classes.icon}
+								className={classes.icon1}
 								style={{
 									// transform: 'rotate(240deg)',
 									// marginLeft: 90,
@@ -564,7 +560,7 @@ export default function LandingPage() {
 							className={classes.cash}
 						>
 							<ReplyIcon
-								// className={classes.icon}
+								className={classes.icon1}
 								style={{
 									// transform: 'rotate(240deg)',
 									// marginLeft: 90,
