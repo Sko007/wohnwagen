@@ -7,6 +7,7 @@ import LocationOn from '@material-ui/icons/LocationOn';
 import EuroSymbol from '@material-ui/icons/EuroSymbol';
 import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
 import Typography from '@material-ui/core/Typography';
+import { HardwareDevicesOther } from 'material-ui/svg-icons';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -14,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
 		flexWrap: 'wrap',
 		'& > *': {
 			margin: theme.spacing(1),
-			width: theme.spacing(28),
-			height: theme.spacing(28),
+			width: theme.spacing(30),
+			height: theme.spacing(30),
 		},
 		justifyContent: 'space',
 	},
@@ -24,10 +25,13 @@ const useStyles = makeStyles((theme) => ({
 export default function SimplePaper() {
 	const classes = useStyles();
 
+	function hover() {}
+
 	return (
 		<div className={classes.root}>
 			<Paper
-				elevation={0}
+				onMouseOver={hover()}
+				elevation={2}
 				style={{ color: '#303030', fontFamily: 'open sans' }}
 			>
 				<PhoneIcon
@@ -37,7 +41,7 @@ export default function SimplePaper() {
 					<strong>1. Heute Anrufen von 8 -16 Uhr</strong>
 				</Typography>
 			</Paper>
-			<Paper elevation={0} style={{ color: '#303030' }}>
+			<Paper elevation={2} style={{ color: '#303030' }}>
 				<SupervisorAccountIcon
 					style={{ height: 150, width: 150, color: '#303030' }}
 				></SupervisorAccountIcon>
@@ -49,7 +53,7 @@ export default function SimplePaper() {
 					</strong>
 				</Typography>
 			</Paper>
-			<Paper elevation={0} style={{ color: '#303030' }}>
+			<Paper elevation={2} style={{ color: '#303030' }}>
 				<LocationOn
 					style={{ height: 150, width: 150, color: '#303030' }}
 				></LocationOn>
@@ -61,7 +65,7 @@ export default function SimplePaper() {
 					</strong>
 				</Typography>
 			</Paper>
-			<Paper elevation={0} style={{ color: '#303030' }}>
+			<Paper elevation={2} style={{ color: '#303030' }}>
 				<EuroSymbol
 					style={{ height: 150, width: 150, color: '#303030' }}
 				></EuroSymbol>
@@ -73,7 +77,7 @@ export default function SimplePaper() {
 					</strong>
 				</Typography>
 			</Paper>
-			<Paper elevation={0} style={{ color: '#303030' }}>
+			<Paper elevation={2} style={{ color: '#303030' }}>
 				<DirectionsTransitIcon
 					style={{ height: 150, width: 150, color: '#303030' }}
 				></DirectionsTransitIcon>
