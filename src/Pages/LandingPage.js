@@ -381,7 +381,7 @@ export default function LandingPage() {
 										Im Telefonat wird der Zustand des
 										Wohnmobils durch gezielte Fragen
 										festgestellt. Dabei stehen der erfahrene
-										Dr. Dirk Benkel und sein Partner zu
+										Dr. Dirk Benkel und seine Partner zu
 										Verfügung.
 									</p>
 								</Typography>
@@ -470,7 +470,10 @@ export default function LandingPage() {
 										Familienunternehmen wo eine zuverlässige
 										und kundenorientierte Arbeitsweise sowie
 										ein hohes Maß an Expertise
-										zusammenkommen.
+										zusammenkommen. Deswegen sind er und
+										seine Mitarbeiter in der Lage ein
+										schnelles und verbindlichens Angebot zu
+										unterbreiten.
 									</p>
 								</Typography>
 							</Box>
@@ -528,14 +531,14 @@ export default function LandingPage() {
 											margininlineend: 0,
 										}}
 									>
-										Nachdem ein Termin mit einem
-										Gesprächspartner festgelegt wurde.
-										Fahren Sie ihr Wohnmobil/wagen ins
-										Weserbergland - Blankenauer Straße 16,
-										37688 Beverungen. Vor Ort wird das
-										Fahrzeug geprüft. Es wird geschaut ob
-										der Zustand des Fahrzeug mit der
-										Beschreibung am Telefon übereinstimmt.
+										Nachdem das Angebot abgegeben und ein
+										Termin vereinbart wurde. Fahren Sie ihr
+										Wohnmobil ins Weserbergland -
+										Blankenauer Straße 16, 37688 Beverungen.
+										Vor Ort wird das Fahrzeug geprüft. Es
+										wird geschaut ob der Zustand des
+										Fahrzeug mit der Beschreibung am Telefon
+										übereinstimmt.
 									</p>
 								</Typography>
 							</Box>
