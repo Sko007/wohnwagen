@@ -320,7 +320,7 @@ export default function LandingPage() {
 								fontWeight: 'bold',
 							}}
 						>
-							Ablaufplan
+							Ablaufplan im Detail
 						</Typography>
 						{/* <Box display="flex" justifyContent="flex-start"></Box> */}
 						<Box
