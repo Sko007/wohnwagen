@@ -9,6 +9,16 @@ import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
 import Typography from '@material-ui/core/Typography';
 import { HardwareDevicesOther } from 'material-ui/svg-icons';
 
+// .image-wrapper{
+//     width:100%;
+//     height:100vh;
+//     background-image: url("../statics/forest1.jpg");
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size:cover
+
+// }
+
 const useStyles = makeStyles((theme) => ({
 	root: {
 		display: 'flex',

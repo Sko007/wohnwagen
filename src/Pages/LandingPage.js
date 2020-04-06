@@ -28,6 +28,7 @@ import EuroSymbol from '@material-ui/icons/EuroSymbol';
 import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
 import RedoIcon from '@material-ui/icons/Redo';
 import ReplyIcon from '@material-ui/icons/Reply';
+import Dirk from '../Statics/dirk1_opacity.png';
 
 function Copyright() {
 	return (
@@ -60,6 +61,15 @@ function Copyright() {
 // });
 
 const useStyles = makeStyles((theme) => ({
+	picture: {
+		backgroundImage: `url(${Dirk})`,
+		backgroundRepeat: 'no - repeat',
+		backgroundAttachment: 'fixed',
+		backgroundSize: 'cover',
+		height: 'auto',
+		display: 'flex',
+		justifyContent: 'flex-end',
+	},
 	icon: {},
 	anruf: {
 		backgroundColor: 'white',
@@ -83,11 +93,11 @@ const useStyles = makeStyles((theme) => ({
 	container: {
 		backgroundColor: theme.palette.background.default,
 		// margintop: 100,
-		marginBottom: 100,
+		// marginBottom: 100,
 	},
 	headline: {
-		marginBottom: 0,
-		paddingTop: 19,
+		// marginBottom: 0,
+		// paddingTop: 19,
 	},
 	// logo: {
 	// 	maxWidth: 0,
@@ -214,36 +224,47 @@ export default function LandingPage() {
 					{/* <div className={classes.heroContent}> */}
 					{/* <Box boxShadow={1} bgcolor="background.paper" m={1} p={1}> */}
 
+					<Container maxWidth="xl" className={classes.picture}>
+						<Typography
+							component="h2"
+							variant="h2"
+							align="center"
+							color="textSecondary"
+							// gutterBottom
+							style={{
+								paddingTop: 200,
+								paddingRight: 60,
+								height: 450,
+								color: 'white',
+								fontSize: 30,
+								opacity: 0.9,
+							}}
+							// className={classes.headline}
+						>
+							{/* Autohaus Benkel! <br></br> Wir geben faire und
+							verbindliche Preise für ihr Wohnmobil */}
+						</Typography>
+					</Container>
+
 					<Container maxWidth="xl" className={classes.container}>
 						<Typography
 							component="h2"
 							variant="h2"
 							align="center"
 							color="textSecondary"
-							gutterBottom
-							style={{ paddingTop: 80 }}
+							// gutterBottom
+							style={{ paddingTop: 40 }}
 							// className={classes.headline}
 						>
-							Autohaus Benkel! <br></br> Wir geben faire und
-							verbindliche Preise für ihr Wohnmobil
+							Wir kaufen dein Wohnmobil
+							<br></br>
+							So gehts...
 						</Typography>
-						<hr></hr>
-						{/* <Typography
-							component="h4"
-							variant="h4"
-							align="center"
-							color="textSecondary"
-							gutterBottom
-							style={{ paddingTop: 80 }}
-							// className={classes.headline}
-						>
-							Heute Anrufen - Morgen kassieren
-						</Typography> */}
 
 						<Box
 							display="flex"
 							justifyContent="center"
-							style={{ marginTop: 100 }}
+							style={{ paddingTop: 65 }}
 						>
 							<Paper></Paper>
 						</Box>
@@ -276,43 +297,6 @@ export default function LandingPage() {
 						</div>
 					</Container>
 					{/* </Box> */}
-					<Container maxWidth="lg">
-						{/* <Typography
-							component="h2"
-							variant="h2"
-							align="center"
-							color="textSecondary"
-							gutterBottom
-							style={{ fontFamily: 'open sans' }}
-						>
-							Autohaus Benkel
-						</Typography> */}
-						<Typography
-							variant="h5"
-							align="center"
-							color="textSecondary"
-							paragraph
-							style={{ fontFamily: 'open sans' }}
-						>
-							Something short and leading about the collection
-							below—its contents, the creator, etc. Make it short
-							and sweet, but not too short so folks don&apos;t
-							simply skip over it entirely. Something short and
-							leading about the collection below—its contents, the
-							creator, etc. Make it short and sweet, but not too
-							short so folks don&apos;t simply skip over it
-							entirely.Something short and leading about the
-							collection below—its contents, the creator, etc.
-							Make it short and sweet, but not too short so folks
-							don&apos;t simply skip over it entirely.
-						</Typography>
-						<div className={classes.heroButtons}>
-							<Grid container spacing={2} justify="center">
-								<Grid item></Grid>
-							</Grid>
-						</div>
-						<hr></hr>
-					</Container>
 
 					<Container maxWidth="lg">
 						<Typography
@@ -614,6 +598,43 @@ export default function LandingPage() {
 								</Grid>
 							))}
 						</Grid>
+					</Container>
+					<Container maxWidth="lg">
+						{/* <Typography
+							component="h2"
+							variant="h2"
+							align="center"
+							color="textSecondary"
+							gutterBottom
+							style={{ fontFamily: 'open sans' }}
+						>
+							Autohaus Benkel
+						</Typography> */}
+						<Typography
+							variant="h5"
+							align="center"
+							color="textSecondary"
+							paragraph
+							style={{ marginTop: 80 }}
+						>
+							Something short and leading about the collection
+							below—its contents, the creator, etc. Make it short
+							and sweet, but not too short so folks don&apos;t
+							simply skip over it entirely. Something short and
+							leading about the collection below—its contents, the
+							creator, etc. Make it short and sweet, but not too
+							short so folks don&apos;t simply skip over it
+							entirely.Something short and leading about the
+							collection below—its contents, the creator, etc.
+							Make it short and sweet, but not too short so folks
+							don&apos;t simply skip over it entirely.
+						</Typography>
+						<div className={classes.heroButtons}>
+							<Grid container spacing={2} justify="center">
+								<Grid item></Grid>
+							</Grid>
+						</div>
+						{/* <hr></hr> */}
 					</Container>
 
 					{/* </div> */}
