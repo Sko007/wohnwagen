@@ -79,7 +79,9 @@ export default function SimplePaper() {
 				></DirectionsTransitIcon>
 
 				<Typography>
-					<strong>5. Kostenloser Transfer zum Bahnhof</strong>
+					<strong>
+						5. Kostenloser Transfer zum Bahnhof oder nach Hause
+					</strong>
 				</Typography>
 			</Paper>
 		</div>
