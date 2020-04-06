@@ -44,7 +44,7 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - verbindliche Preis für ihr
+						2. Expertenschätzung - verbindlicher Preis für ihr
 						Wohnwagen
 					</strong>
 				</Typography>
@@ -55,7 +55,9 @@ export default function SimplePaper() {
 				></LocationOn>
 
 				<Typography>
-					<strong>3. Wohnmobil bringen - 500€ Bar bekommen</strong>
+					<strong>
+						3. Wohnmobil bringen - € 500 Aufwandsentschädigung
+					</strong>
 				</Typography>
 			</Paper>
 			<Paper elevation={0} style={{ color: '#303030' }}>
