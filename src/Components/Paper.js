@@ -44,7 +44,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - verbindliches Werturteil
+						2. Expertenschätzung - verbindliche Preis für ihr
+						Wohnwagen
 					</strong>
 				</Typography>
 			</Paper>
@@ -63,7 +64,7 @@ export default function SimplePaper() {
 				></EuroSymbol>
 
 				<Typography>
-					<strong>4. Geld für Wohnwaagen abkassieren</strong>
+					<strong>4. Geld für Wohnwagen erhalten</strong>
 				</Typography>
 			</Paper>
 			<Paper elevation={0} style={{ color: '#303030' }}>
