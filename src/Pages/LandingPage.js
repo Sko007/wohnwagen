@@ -468,8 +468,9 @@ export default function LandingPage() {
 										Dr. Dirk Benkel führt das Autohaus in 4.
 										Generation. Es ist ein
 										Familienunternehmen wo eine zuverlässige
-										und kundenorientierte Arbeitsweise an
-										der Tagesordnung liegt.
+										und kundenorientierte Arbeitsweise sowie
+										ein hohes Maß an Expertise
+										zusammenkommen.
 									</p>
 								</Typography>
 							</Box>
