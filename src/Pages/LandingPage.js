@@ -214,7 +214,9 @@ export default function LandingPage() {
 							justifyContent: 'space-between',
 						}}
 					>
-						<PhoneIcon></PhoneIcon> 05273/3608-0
+						<Box>
+							<PhoneIcon></PhoneIcon> 05273/3608-0
+						</Box>
 					</Typography>
 				</Toolbar>
 			</AppBar>
@@ -640,7 +642,7 @@ export default function LandingPage() {
 						</Grid>
 					</Container>
 					<Container maxWidth="lg">
-						{/* <Typography
+						<Typography
 							component="h2"
 							variant="h2"
 							align="center"
@@ -648,8 +650,39 @@ export default function LandingPage() {
 							gutterBottom
 							style={{ fontFamily: 'open sans' }}
 						>
-							Autohaus Benkel
-						</Typography> */}
+							Anfahrt
+						</Typography>
+
+						<Typography
+							variant="p"
+							align="center"
+							color="textSecondary"
+							paragraph
+							style={{}}
+						>
+							Transfer Something short and leading about the
+							collection below—its contents, the creator, etc.
+							Make it short and sweet, but not too short so folks
+							don&apos;t simply skip over it entirely. Something
+							short and leading about the collection below—its
+							contents, the creator, etc. Make it short and sweet,
+							but not too short so folks don&apos;t simply skip
+							over it entirely.Something short and leading about
+							the collection below—its contents, the creator, etc.
+							Make it short and sweet, but not too short so folks
+							don&apos;t simply skip over it entirely. Transfer
+							Something short and leading about the collection
+							below—its contents, the creator, etc. Make it short
+							and sweet, but not too short so folks don&apos;t
+							simply skip over it entirely. Something short and
+							leading about the collection below—its contents, the
+							creator, etc. Make it short and sweet, but not too
+							short so folks don&apos;t simply skip over it
+							entirely.Something short and leading about the
+							collection below—its contents, the creator, etc.
+							Make it short and sweet, but not too short so folks
+							don&apos;t simply skip over it entirely.
+						</Typography>
 
 						<div className={classes.heroButtons}>
 							<Grid container spacing={2} justify="center">
