@@ -29,6 +29,7 @@ import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
 import RedoIcon from '@material-ui/icons/Redo';
 import ReplyIcon from '@material-ui/icons/Reply';
 import Dirk from '../Statics/dirk1_opacity.png';
+import Käufer from '../Statics/käufer.jpg';
 
 function Copyright() {
 	return (
@@ -145,6 +146,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	cardMedia: {
 		paddingTop: '56.25%', // 16:9
+		backgroundImage: `url(${Käufer})`,
 	},
 	cardContent: {
 		flexGrow: 1,
@@ -255,7 +257,13 @@ export default function LandingPage() {
 							align="center"
 							color="textSecondary"
 							// gutterBottom
-							style={{ paddingTop: 40 }}
+							style={{
+								paddingTop: 40,
+								fontsize: 11,
+								fontFamily: 'open sans',
+								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
+								fontWeight: 'bold',
+							}}
 							// className={classes.headline}
 						>
 							Wir kaufen dein Wohnmobil
@@ -309,9 +317,14 @@ export default function LandingPage() {
 							style={{
 								fontFamily: 'open sans',
 								marginBottom: 100,
+								paddingTop: 40,
+								fontsize: 11,
+								fontFamily: 'open sans',
+								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
+								fontWeight: 'bold',
 							}}
 						>
-							Prozess Im Detail
+							Ablaufplan
 						</Typography>
 						{/* <Box display="flex" justifyContent="flex-start"></Box> */}
 						<Box
@@ -359,20 +372,22 @@ export default function LandingPage() {
 									paragraph
 									style={{ maxWidth: 400, fontSize: 20 }}
 								>
-									Anrufen Something short and leading about
-									the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely. Something short and
-									leading about the collection below—its
-									contents, the creator, etc. Make it short
-									and sweet, but not too short so folks
-									don&apos;t simply skip over it
-									entirely.Something short and leading about
-									the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely.
+									<p
+										style={{
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
+									>
+										{' '}
+										Im Telefonat wird der Zustand des
+										Wohnmobils durch gezielte Fragen
+										festgestellt. Dabei stehen der erfahrene
+										Dr. Dirk Benkel und sein Partner zu
+										Verfügung.
+									</p>
 								</Typography>
 							</Box>
 
@@ -443,22 +458,23 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400 }}
+									style={{ maxWidth: 400, fontSize: 20 }}
 								>
-									Experteneinschätzung Something short and
-									leading about the collection below—its
-									contents, the creator, etc. Make it short
-									and sweet, but not too short so folks
-									don&apos;t simply skip over it entirely.
-									Something short and leading about the
-									collection below—its contents, the creator,
-									etc. Make it short and sweet, but not too
-									short so folks don&apos;t simply skip over
-									it entirely.Something short and leading
-									about the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely.
+									<p
+										style={{
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
+									>
+										Dr. Dirk Benkel führt das Autohaus in 4.
+										Generation. Es ist ein
+										Familienunternehmen wo eine zuverlässige
+										und kundenorientierte Arbeitsweise an
+										der Tagesordnung liegt.
+									</p>
 								</Typography>
 							</Box>
 						</Box>
@@ -504,21 +520,26 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400 }}
+									style={{ maxWidth: 400, fontSize: 20 }}
 								>
-									Bonus Something short and leading about the
-									collection below—its contents, the creator,
-									etc. Make it short and sweet, but not too
-									short so folks don&apos;t simply skip over
-									it entirely. Something short and leading
-									about the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely.Something short and
-									leading about the collection below—its
-									contents, the creator, etc. Make it short
-									and sweet, but not too short so folks
-									don&apos;t simply skip over it entirely.
+									<p
+										style={{
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
+									>
+										Nachdem ein Termin mit einem
+										Gesprächspartner festgelegt wurde.
+										Fahren Sie ihr Wohnmobil/wagen ins
+										Weserbergland - Blankenauer Straße 16,
+										37688 Beverungen. Vor Ort wird das
+										Fahrzeug geprüft. Es wird geschaut ob
+										der Zustand des Fahrzeug mit der
+										Beschreibung am Telefon übereinstimmt.
+									</p>
 								</Typography>
 							</Box>
 
@@ -591,22 +612,24 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400 }}
+									style={{ maxWidth: 400, fontSize: 20 }}
 								>
-									Abkassieren Something short and leading
-									about the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely. Something short and
-									leading about the collection below—its
-									contents, the creator, etc. Make it short
-									and sweet, but not too short so folks
-									don&apos;t simply skip over it
-									entirely.Something short and leading about
-									the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely.
+									<p
+										style={{
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
+									>
+										Wenn das Wohnmobil verkauft wird,
+										erhalten Sie den vereinbarten Preis und
+										eine Fahrtkostenpauschale von € 500.
+										Dieses Geld wird ihnen Bar ausgezahlt
+										oder per Blitzüberweisung auf ein
+										gewünschtes Konto überwiesen.
+									</p>
 								</Typography>
 							</Box>
 						</Box>
@@ -652,28 +675,28 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400 }}
+									style={{ maxWidth: 400, fontSize: 20 }}
 								>
-									Transfer Something short and leading about
-									the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely. Something short and
-									leading about the collection below—its
-									contents, the creator, etc. Make it short
-									and sweet, but not too short so folks
-									don&apos;t simply skip over it
-									entirely.Something short and leading about
-									the collection below—its contents, the
-									creator, etc. Make it short and sweet, but
-									not too short so folks don&apos;t simply
-									skip over it entirely.
+									<p
+										style={{
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
+									>
+										Im Anschluss fährt Sie unser
+										Servicemitarbeiter zu einem nahe
+										gelegenen Bahnhof oder wenn möglich
+										direkt zu ihnen nach Hause.
+									</p>
 								</Typography>
 							</Box>
 						</Box>
 					</Container>
 
-					<Container className={classes.cardGrid} maxWidth="md">
+					<Container className={classes.cardGrid} maxWidth="lg">
 						{/* End hero unit */}
 
 						<Typography
@@ -682,18 +705,28 @@ export default function LandingPage() {
 							align="center"
 							color="textSecondary"
 							gutterBottom
-							style={{ paddingTop: 80 }}
+							style={{
+								paddingTop: 40,
+								fontsize: 11,
+								fontFamily: 'open sans',
+								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
+								fontWeight: 'bold',
+							}}
 							// className={classes.headline}
 						>
 							Zufriedene Verkäufer
 						</Typography>
-						<Grid container spacing={4}>
+						<Grid
+							container
+							style={{ display: 'flex', flexDirection: 'row' }}
+							spacing={4}
+						>
 							{cards.map((card) => (
 								<Grid item key={card} xs={12} sm={6} md={4}>
 									<Card className={classes.card}>
 										<CardMedia
 											className={classes.cardMedia}
-											image="https://source.unsplash.com/random"
+											// image="https://source.unsplash.com/random"
 											title="Image title"
 										/>
 										<CardContent
@@ -738,7 +771,13 @@ export default function LandingPage() {
 							align="center"
 							color="textSecondary"
 							gutterBottom
-							style={{ fontFamily: 'open sans' }}
+							style={{
+								paddingTop: 40,
+								fontsize: 11,
+								fontFamily: 'open sans',
+								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
+								fontWeight: 'bold',
+							}}
 						>
 							Anfahrt
 						</Typography>

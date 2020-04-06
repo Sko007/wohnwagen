@@ -25,8 +25,8 @@ const useStyles = makeStyles((theme) => ({
 		flexWrap: 'wrap',
 		'& > *': {
 			margin: theme.spacing(1),
-			width: theme.spacing(30),
-			height: theme.spacing(30),
+			width: theme.spacing(35),
+			height: theme.spacing(35),
 		},
 		justifyContent: 'space',
 	},
@@ -58,8 +58,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - verbindlichen Preis für ihren
-						Wohnwagen erhalten
+						2. Expertenschätzung - Experten geben verbindlichen
+						Preis für Wohnmobil
 					</strong>
 				</Typography>
 			</Paper>
@@ -70,8 +70,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						3. Termin vereinbaren - Wohnmobil bringen - € 500
-						Aufwandsentschädigung
+						3. Termin vereinbaren und Wohnmobil ins Weserbergland
+						fahren.
 					</strong>
 				</Typography>
 			</Paper>
@@ -82,8 +82,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						4. Wohnmobil prüfen - vereinbarte Summe für Wohnwagen
-						erhalten
+						4. Wohnmobil wird geprüft - vereinbarter Preis und 500 €
+						Fahrtkostenpauschale erhalten
 					</strong>
 				</Typography>
 			</Paper>
@@ -94,7 +94,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						5. Kostenloser Transfer zum Bahnhof oder nach Hause
+						5. Unser Servicemitarbeiter bringt Sie zum Bahnhof oder
+						nach Hause
 					</strong>
 				</Typography>
 			</Paper>
