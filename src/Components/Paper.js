@@ -44,7 +44,7 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - verbindlicher Preis für ihr
+						2. Expertenschätzung - verbindlichen Preis für ihren
 						Wohnwagen
 					</strong>
 				</Typography>
