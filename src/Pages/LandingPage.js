@@ -789,28 +789,7 @@ export default function LandingPage() {
 							paragraph
 							style={{}}
 						>
-							Transfer Something short and leading about the
-							collection below—its contents, the creator, etc.
-							Make it short and sweet, but not too short so folks
-							don&apos;t simply skip over it entirely. Something
-							short and leading about the collection below—its
-							contents, the creator, etc. Make it short and sweet,
-							but not too short so folks don&apos;t simply skip
-							over it entirely.Something short and leading about
-							the collection below—its contents, the creator, etc.
-							Make it short and sweet, but not too short so folks
-							don&apos;t simply skip over it entirely. Transfer
-							Something short and leading about the collection
-							below—its contents, the creator, etc. Make it short
-							and sweet, but not too short so folks don&apos;t
-							simply skip over it entirely. Something short and
-							leading about the collection below—its contents, the
-							creator, etc. Make it short and sweet, but not too
-							short so folks don&apos;t simply skip over it
-							entirely.Something short and leading about the
-							collection below—its contents, the creator, etc.
-							Make it short and sweet, but not too short so folks
-							don&apos;t simply skip over it entirely.
+							Blankenauer Straße 16, 37688 Beverungen
 						</Typography>
 
 						<div className={classes.heroButtons}>
