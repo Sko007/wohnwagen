@@ -228,7 +228,7 @@ export default function LandingPage() {
 							verbindliche Preise für ihr Wohnmobil
 						</Typography>
 						<hr></hr>
-						<Typography
+						{/* <Typography
 							component="h4"
 							variant="h4"
 							align="center"
@@ -238,9 +238,13 @@ export default function LandingPage() {
 							// className={classes.headline}
 						>
 							Heute Anrufen - Morgen kassieren
-						</Typography>
+						</Typography> */}
 
-						<Box display="flex" justifyContent="center">
+						<Box
+							display="flex"
+							justifyContent="center"
+							style={{ marginTop: 100 }}
+						>
 							<Paper></Paper>
 						</Box>
 						{/* <Typography
@@ -273,7 +277,7 @@ export default function LandingPage() {
 					</Container>
 					{/* </Box> */}
 					<Container maxWidth="lg">
-						<Typography
+						{/* <Typography
 							component="h2"
 							variant="h2"
 							align="center"
@@ -282,7 +286,7 @@ export default function LandingPage() {
 							style={{ fontFamily: 'open sans' }}
 						>
 							Autohaus Benkel
-						</Typography>
+						</Typography> */}
 						<Typography
 							variant="h5"
 							align="center"
