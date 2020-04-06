@@ -44,8 +44,7 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - verbindlichen Wert des
-						Wohnwaagens einholen
+						2. Expertenschätzung - verbindliches Werturteil
 					</strong>
 				</Typography>
 			</Paper>
@@ -55,7 +54,7 @@ export default function SimplePaper() {
 				></LocationOn>
 
 				<Typography>
-					<strong>3. Auto bringen - 500€ Bar bekommen</strong>
+					<strong>3. Wohnmobil bringen - 500€ Bar bekommen</strong>
 				</Typography>
 			</Paper>
 			<Paper elevation={0} style={{ color: '#303030' }}>
