@@ -56,7 +56,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						3. Wohnmobil bringen - € 500 Aufwandsentschädigung
+						3. Termin vereinbaren - Wohnmobil bringen - € 500
+						Aufwandsentschädigung
 					</strong>
 				</Typography>
 			</Paper>
@@ -66,7 +67,10 @@ export default function SimplePaper() {
 				></EuroSymbol>
 
 				<Typography>
-					<strong>4. Geld für Wohnwagen erhalten</strong>
+					<strong>
+						4. Wohnmobil prüfen - vereinbarte Summe für Wohnwagen
+						erhalten
+					</strong>
 				</Typography>
 			</Paper>
 			<Paper elevation={0} style={{ color: '#303030' }}>
