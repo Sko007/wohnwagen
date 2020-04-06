@@ -44,7 +44,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - Wert des Wohnwaagens einholen
+						2. Expertenschätzung - verbindlichen Wert des
+						Wohnwaagens einholen
 					</strong>
 				</Typography>
 			</Paper>

@@ -224,8 +224,8 @@ export default function LandingPage() {
 							style={{ paddingTop: 80 }}
 							// className={classes.headline}
 						>
-							Autohaus Benkel! <br></br> Wir geben faire Preise
-							für ihr Wohnmobil
+							Autohaus Benkel! <br></br> Wir geben faire und
+							verbindliche Preise für ihr Wohnmobil
 						</Typography>
 						<hr></hr>
 						<Typography
