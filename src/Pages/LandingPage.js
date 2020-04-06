@@ -359,10 +359,11 @@ export default function LandingPage() {
 								// className={classes.icon}
 								style={{
 									// transform: 'rotate(240deg)',
-									transform: 'scaleY(-1)',
-									transform: 'rotate(260deg)',
-									height: 300,
-									width: 300,
+									// marginLeft: 90,
+									marginTop: 120,
+									transform: 'scaleX(-1) rotate(310deg)',
+									height: 400,
+									width: 400,
 									color: 'grey',
 								}}
 							></ReplyIcon>
@@ -373,6 +374,18 @@ export default function LandingPage() {
 							flexWrap="wrap"
 							className={classes.expert}
 						>
+							<ReplyIcon
+								// className={classes.icon}
+								style={{
+									// transform: 'rotate(240deg)',
+									// marginLeft: 90,
+									marginTop: 120,
+									transform: ' rotate(310deg)',
+									height: 400,
+									width: 400,
+									color: 'grey',
+								}}
+							></ReplyIcon>
 							<Box
 								display="flex"
 								flexDirection="column"
@@ -451,13 +464,40 @@ export default function LandingPage() {
 									don&apos;t simply skip over it entirely.
 								</Typography>
 							</Box>
+
+							<ReplyIcon
+								// className={classes.icon}
+								style={{
+									// transform: 'rotate(240deg)',
+									// marginLeft: 90,
+									marginTop: 120,
+									transform: 'scaleX(-1) rotate(310deg)',
+									height: 400,
+									width: 400,
+									color: 'grey',
+								}}
+							></ReplyIcon>
 						</Box>
+
 						<Box
 							display="flex"
 							flexWrap="wrap"
 							justifyContent="flex-end"
 							className={classes.cash}
 						>
+							<ReplyIcon
+								// className={classes.icon}
+								style={{
+									// transform: 'rotate(240deg)',
+									// marginLeft: 90,
+									marginTop: 120,
+									transform: ' rotate(310deg)',
+									height: 400,
+									width: 400,
+									color: 'grey',
+								}}
+							></ReplyIcon>
+
 							<Box
 								display="flex"
 								flexDirection="column"
@@ -610,25 +650,7 @@ export default function LandingPage() {
 						>
 							Autohaus Benkel
 						</Typography> */}
-						<Typography
-							variant="h5"
-							align="center"
-							color="textSecondary"
-							paragraph
-							style={{ marginTop: 80 }}
-						>
-							Something short and leading about the collection
-							below—its contents, the creator, etc. Make it short
-							and sweet, but not too short so folks don&apos;t
-							simply skip over it entirely. Something short and
-							leading about the collection below—its contents, the
-							creator, etc. Make it short and sweet, but not too
-							short so folks don&apos;t simply skip over it
-							entirely.Something short and leading about the
-							collection below—its contents, the creator, etc.
-							Make it short and sweet, but not too short so folks
-							don&apos;t simply skip over it entirely.
-						</Typography>
+
 						<div className={classes.heroButtons}>
 							<Grid container spacing={2} justify="center">
 								<Grid item></Grid>
