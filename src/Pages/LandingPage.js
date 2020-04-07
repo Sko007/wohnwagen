@@ -73,6 +73,9 @@ const useStyles = makeStyles((theme) => ({
 			height: 'auto',
 			display: 'flex',
 		},
+		[theme.breakpoints.down('sm')]: {
+			display: 'none',
+		},
 	},
 	icon1: {
 		[theme.breakpoints.down('md')]: {
@@ -720,7 +723,7 @@ export default function LandingPage() {
 						</Typography>
 
 						<Typography
-							variant="p"
+							variant="h3"
 							align="center"
 							color="textSecondary"
 							paragraph
