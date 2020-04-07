@@ -47,6 +47,11 @@ function Copyright() {
 }
 
 const useStyles = makeStyles((theme) => ({
+	logo: {
+		[theme.breakpoints.down('sm')]: {
+			display: 'none',
+		},
+	},
 	picture: {
 		backgroundImage: `url(${Dirk})`,
 		backgroundRepeat: 'no - repeat',
@@ -154,10 +159,11 @@ export default function LandingPage() {
 				<Toolbar variant="dense" className={classes.toolBar}>
 					<Box
 						display="flex"
-						// justifyContent="flex-start"
+						justifyContent="space-betweem"
 						flexWrap="wrap"
 					>
 						<img
+							className={classes.logo}
 							src={Brand}
 							style={{
 								height: 57,
