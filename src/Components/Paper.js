@@ -48,7 +48,9 @@ export default function SimplePaper() {
 					style={{ height: 150, width: 150, color: '#303030' }}
 				></PhoneIcon>
 				<Typography>
-					<strong>1. Heute anrufen von 8 -16 Uhr</strong>
+					<strong>
+						1. Heute anrufen - Montag bis Freitag von 8 -16 Uhr
+					</strong>
 				</Typography>
 			</Paper>
 			<Paper elevation={2} style={{ color: '#303030' }}>
