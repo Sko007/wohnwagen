@@ -67,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: 'flex-end',
 	},
 	icon1: {
-		[theme.breakpoints.down('sm')]: {
+		[theme.breakpoints.down('md')]: {
 			display: 'none',
 		},
 	},
