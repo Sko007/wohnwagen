@@ -152,21 +152,27 @@ export default function LandingPage() {
 				className={classes.appbar}
 			>
 				<Toolbar variant="dense" className={classes.toolBar}>
-					<img
-						src={Brand}
-						style={{
-							height: 57,
-							width: 200,
-							marginTop: 3,
-							marginRight: 5,
-						}}
-					></img>
+					<Box
+						display="flex"
+						// justifyContent="flex-start"
+						flexWrap="wrap"
+					>
+						<img
+							src={Brand}
+							style={{
+								height: 57,
+								width: 200,
+								marginTop: 3,
+								marginRight: 5,
+							}}
+						></img>
 
-					<img
-						className={classes.siegel}
-						src={Quality}
-						style={{}}
-					></img>
+						<img
+							className={classes.siegel}
+							src={Quality}
+							style={{}}
+						></img>
+					</Box>
 					<Typography
 						variant="h5"
 						align="center"
