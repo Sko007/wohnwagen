@@ -305,6 +305,8 @@ export default function LandingPage() {
 											color: 'grey',
 										}}
 									></PhoneIcon>
+								</Box>
+								<Box>
 									<Typography
 										variant="p"
 										align="center"
@@ -389,33 +391,32 @@ export default function LandingPage() {
 											color: 'grey',
 										}}
 									></SupervisorAccountIcon>
-
-									<Typography
-										variant="p"
-										align="center"
-										color="textSecondary"
-										paragraph
-										style={{
-											maxWidth: 400,
-											fontSize: 20,
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Dr. Dirk Benkel führt das Autohaus in 4.
-										Generation. Es ist ein
-										Familienunternehmen wo eine zuverlässige
-										und kundenorientierte Arbeitsweise sowie
-										ein hohes Maß an Expertise
-										zusammenkommen. Deswegen sind er und
-										seine Mitarbeiter in der Lage ein
-										schnelles und verbindlichens Angebot zu
-										unterbreiten.
-									</Typography>
 								</Box>
+
+								<Typography
+									variant="p"
+									align="center"
+									color="textSecondary"
+									paragraph
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
+								>
+									Dr. Dirk Benkel führt das Autohaus in 4.
+									Generation. Es ist ein Familienunternehmen
+									wo eine zuverlässige und kundenorientierte
+									Arbeitsweise sowie ein hohes Maß an
+									Expertise zusammenkommen. Deswegen sind er
+									und seine Mitarbeiter in der Lage ein
+									schnelles und verbindlichens Angebot zu
+									unterbreiten.
+								</Typography>
 							</Box>
 						</Box>
 						<Box
@@ -454,31 +455,30 @@ export default function LandingPage() {
 											color: 'grey',
 										}}
 									></LocationOn>
-									<Typography
-										variant="p"
-										align="center"
-										color="textSecondary"
-										paragraph
-										style={{
-											maxWidth: 400,
-											fontSize: 20,
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Nachdem das Angebot abgegeben und ein
-										Termin vereinbart wurde. Fahren Sie ihr
-										Wohnmobil ins Weserbergland -
-										Blankenauer Straße 16, 37688 Beverungen.
-										Vor Ort wird das Fahrzeug geprüft. Es
-										wird geschaut ob der Zustand des
-										Fahrzeugs mit der Beschreibung am
-										Telefon übereinstimmt.
-									</Typography>
 								</Box>
+								<Typography
+									variant="p"
+									align="center"
+									color="textSecondary"
+									paragraph
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
+								>
+									Nachdem das Angebot abgegeben und ein Termin
+									vereinbart wurde. Fahren Sie ihr Wohnmobil
+									ins Weserbergland - Blankenauer Straße 16,
+									37688 Beverungen. Vor Ort wird das Fahrzeug
+									geprüft. Es wird geschaut ob der Zustand des
+									Fahrzeugs mit der Beschreibung am Telefon
+									übereinstimmt.
+								</Typography>
 							</Box>
 
 							<ReplyIcon
@@ -540,29 +540,29 @@ export default function LandingPage() {
 											color: 'grey',
 										}}
 									></EuroSymbol>
-									<Typography
-										variant="p"
-										align="center"
-										color="textSecondary"
-										paragraph
-										style={{
-											maxWidth: 400,
-											fontSize: 20,
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Wenn das Wohnmobil verkauft wird,
-										erhalten Sie den vereinbarten Preis und
-										eine Fahrtkostenpauschale von € 500.
-										Dieses Geld wird ihnen Bar ausgezahlt
-										oder per Blitzüberweisung auf ein
-										gewünschtes Konto überwiesen.
-									</Typography>
 								</Box>
+								<Typography
+									variant="p"
+									align="center"
+									color="textSecondary"
+									paragraph
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
+								>
+									Wenn das Wohnmobil verkauft wird, erhalten
+									Sie den vereinbarten Preis und eine
+									Fahrtkostenpauschale von € 500. Dieses Geld
+									wird ihnen Bar ausgezahlt oder per
+									Blitzüberweisung auf ein gewünschtes Konto
+									überwiesen.
+								</Typography>
 							</Box>
 						</Box>
 						<Box
@@ -601,27 +601,27 @@ export default function LandingPage() {
 											color: 'grey',
 										}}
 									></DirectionsTransitIcon>
-									<Typography
-										variant="p"
-										align="center"
-										color="textSecondary"
-										paragraph
-										style={{
-											maxWidth: 400,
-											fontSize: 20,
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Im Anschluss fährt Sie unser
-										Servicemitarbeiter zu einem nahe
-										gelegenen Bahnhof oder wenn möglich
-										direkt zu ihnen nach Hause.
-									</Typography>
 								</Box>
+								<Typography
+									variant="p"
+									align="center"
+									color="textSecondary"
+									paragraph
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
+								>
+									Im Anschluss fährt Sie unser
+									Servicemitarbeiter zu einem nahe gelegenen
+									Bahnhof oder wenn möglich direkt zu ihnen
+									nach Hause.
+								</Typography>
 							</Box>
 						</Box>
 					</Container>
