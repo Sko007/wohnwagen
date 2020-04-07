@@ -1,6 +1,5 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -12,21 +11,15 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import LinearProgress from '@material-ui/core/LinearProgress';
 import PhoneIcon from '@material-ui/icons/PhoneIphone';
-import Partner from '../Statics/Partner.png';
 import Brand from '../Statics/Logo.png';
 import Box from '@material-ui/core/Box';
 import Paper from '../Components/Paper';
 import Quality from '../Statics/qualitaetssiegel.png';
-import ContainerProcess from '../Components/Container';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import LocationOn from '@material-ui/icons/LocationOn';
 import EuroSymbol from '@material-ui/icons/EuroSymbol';
 import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
-import RedoIcon from '@material-ui/icons/Redo';
 import ReplyIcon from '@material-ui/icons/Reply';
 import Dirk from '../Statics/dirk1_opacity.png';
 import Käufer from '../Statics/käufer.jpg';
@@ -89,16 +82,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	container: {
 		backgroundColor: theme.palette.background.default,
-		// margintop: 100,
-		// marginBottom: 100,
 	},
-	headline: {
-		// marginBottom: 0,
-		// paddingTop: 19,
-	},
-	// logo: {
-	// 	maxWidth: 0,
-	// },
+
 	toolBar: {
 		backgroundColor: '#303030',
 		margin: 'auto',
@@ -167,12 +152,6 @@ export default function LandingPage() {
 				className={classes.appbar}
 			>
 				<Toolbar variant="dense" className={classes.toolBar}>
-					{/* <IconButton
-						edge="false"
-						className={classes.menuButton}
-						color="inherit"
-						aria-label="menu"
-					> */}
 					<img
 						src={Brand}
 						style={{
@@ -182,21 +161,12 @@ export default function LandingPage() {
 							marginRight: 5,
 						}}
 					></img>
-					{/* </IconButton>
-					<IconButton
-						edge="false"
-						className={classes.menuButton}
-						color="inherit"
-						aria-label="menu"
-						style={{ float: 'right' }}
-					> */}
 
 					<img
 						className={classes.siegel}
 						src={Quality}
 						style={{}}
 					></img>
-					{/* </IconButton> */}
 					<Typography
 						variant="h5"
 						align="center"
@@ -220,17 +190,12 @@ export default function LandingPage() {
 			</AppBar>
 			<main style={{ backgroundColor: 'white', fontFamily: 'open sans' }}>
 				<div>
-					{/* Hero unit */}
-					{/* <div className={classes.heroContent}> */}
-					{/* <Box boxShadow={1} bgcolor="background.paper" m={1} p={1}> */}
-
 					<Container maxWidth="xl" className={classes.picture}>
 						<Typography
 							component="h2"
 							variant="h2"
 							align="center"
 							color="textSecondary"
-							// gutterBottom
 							style={{
 								paddingTop: 200,
 								paddingRight: 60,
@@ -239,11 +204,7 @@ export default function LandingPage() {
 								fontSize: 30,
 								opacity: 0.9,
 							}}
-							// className={classes.headline}
-						>
-							{/* Autohaus Benkel! <br></br> Wir geben faire und
-							verbindliche Preise für ihr Wohnmobil */}
-						</Typography>
+						></Typography>
 					</Container>
 
 					<Container maxWidth="xl" className={classes.container}>
@@ -252,15 +213,12 @@ export default function LandingPage() {
 							variant="h2"
 							align="center"
 							color="textSecondary"
-							// gutterBottom
 							style={{
 								paddingTop: 40,
 								fontsize: 11,
 								fontFamily: 'open sans',
-								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
 								fontWeight: 'bold',
 							}}
-							// className={classes.headline}
 						>
 							Wir kaufen dein Wohnmobil
 							<br></br>
@@ -274,35 +232,13 @@ export default function LandingPage() {
 						>
 							<Paper></Paper>
 						</Box>
-						{/* <Typography
-							variant="h4"
-							align="center"
-							color="textSecondary"
-							paragraph
-							style={{
-								paddingTop: 40,
-								fontFamily: 'open sans',
-							}}
-						>
-							<PhoneIcon></PhoneIcon> 05273/3608-0
-							{/* </IconButton> */}
 
 						<div className={classes.heroButtons}>
 							<Grid container spacing={2} justify="center">
-								<Grid item>
-									{/* <Button variant="contained" color="primary">
-									Main call to action
-                                    </Button>
-							</Grid>
-							<Grid item>
-								<Button variant="outlined" color="primary">
-                                Secondary action
-								</Button> */}
-								</Grid>
+								<Grid item></Grid>
 							</Grid>
 						</div>
 					</Container>
-					{/* </Box> */}
 
 					<Container maxWidth="lg">
 						<Typography
@@ -316,13 +252,11 @@ export default function LandingPage() {
 								paddingTop: 40,
 								fontsize: 11,
 								fontFamily: 'open sans',
-								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
 								fontWeight: 'bold',
 							}}
 						>
 							Ablaufplan im Detail
 						</Typography>
-						{/* <Box display="flex" justifyContent="flex-start"></Box> */}
 						<Box
 							display="flex"
 							justifyContent="flex-start"
@@ -360,7 +294,6 @@ export default function LandingPage() {
 										}}
 									></PhoneIcon>
 								</Box>
-								{/* <p>Anrufen</p> */}
 								<Typography
 									variant="p"
 									align="center"
@@ -390,8 +323,6 @@ export default function LandingPage() {
 							<ReplyIcon
 								className={classes.icon1}
 								style={{
-									// transform: 'rotate(240deg)',
-									// marginLeft: 90,
 									marginTop: 120,
 									transform: 'scaleX(-1) rotate(310deg)',
 									height: 400,
@@ -409,8 +340,6 @@ export default function LandingPage() {
 							<ReplyIcon
 								className={classes.icon1}
 								style={{
-									// transform: 'rotate(240deg)',
-									// marginLeft: 90,
 									marginTop: 120,
 									transform: ' rotate(310deg)',
 									height: 400,
@@ -546,8 +475,6 @@ export default function LandingPage() {
 							<ReplyIcon
 								className={classes.icon1}
 								style={{
-									// transform: 'rotate(240deg)',
-									// marginLeft: 90,
 									marginTop: 120,
 									transform: 'scaleX(-1) rotate(310deg)',
 									height: 400,
@@ -566,8 +493,6 @@ export default function LandingPage() {
 							<ReplyIcon
 								className={classes.icon1}
 								style={{
-									// transform: 'rotate(240deg)',
-									// marginLeft: 90,
 									marginTop: 120,
 									transform: ' rotate(310deg)',
 									height: 400,
@@ -697,8 +622,6 @@ export default function LandingPage() {
 					</Container>
 
 					<Container className={classes.cardGrid} maxWidth="lg">
-						{/* End hero unit */}
-
 						<Typography
 							component="h2"
 							variant="h2"
@@ -709,10 +632,8 @@ export default function LandingPage() {
 								paddingTop: 40,
 								fontsize: 11,
 								fontFamily: 'open sans',
-								// textshadow: '-1 -1 1 #fff, 1 1 1 #000',
 								fontWeight: 'bold',
 							}}
-							// className={classes.headline}
 						>
 							Zufriedene Verkäufer
 						</Typography>
@@ -751,14 +672,7 @@ export default function LandingPage() {
 												Wohnwaagen bekommen
 											</Typography>
 										</CardContent>
-										<CardActions>
-											{/* <Button size="small" color="primary">
-											View
-                                            </Button>
-                                            <Button size="small" color="primary">
-											Edit
-										</Button> */}
-										</CardActions>
+										<CardActions></CardActions>
 									</Card>
 								</Grid>
 							))}
