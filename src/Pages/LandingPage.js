@@ -300,30 +300,32 @@ export default function LandingPage() {
 										}}
 									></PhoneIcon>
 								</Box>
-								<Typography
-									variant="p"
-									align="center"
-									color="textSecondary"
-									paragraph
-									style={{ maxWidth: 400, fontSize: 20 }}
-								>
-									<p
-										style={{
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
+								<Box>
+									<Typography
+										variant="p"
+										align="center"
+										color="textSecondary"
+										paragraph
+										style={{ maxWidth: 400, fontSize: 20 }}
 									>
-										{' '}
-										Im Telefonat wird der Zustand des
-										Wohnmobils durch gezielte Fragen
-										festgestellt. Dabei stehen der erfahrene
-										Dr. Dirk Benkel und seine Partner zu
-										Verfügung.
-									</p>
-								</Typography>
+										<p
+											style={{
+												display: 'block',
+												marginblockstart: 1,
+												marginblockend: 1,
+												margininlinestart: 0,
+												margininlineend: 0,
+											}}
+										>
+											{' '}
+											Im Telefonat wird der Zustand des
+											Wohnmobils durch gezielte Fragen
+											festgestellt. Dabei stehen der
+											erfahrene Dr. Dirk Benkel und seine
+											Partner zu Verfügung.
+										</p>
+									</Typography>
+								</Box>
 							</Box>
 
 							<ReplyIcon
@@ -384,6 +386,7 @@ export default function LandingPage() {
 										}}
 									></SupervisorAccountIcon>
 								</Box>
+
 								<Typography
 									variant="p"
 									align="center"
