@@ -72,8 +72,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						3. Termin vereinbaren und Wohnmobil ins Weserbergland
-						fahren.
+						3. Termin vereinbaren und Sie fahren ihr Wohnmobil ins
+						Weserbergland
 					</strong>
 				</Typography>
 			</Paper>
