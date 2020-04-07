@@ -466,8 +466,8 @@ export default function LandingPage() {
 										Blankenauer Straße 16, 37688 Beverungen.
 										Vor Ort wird das Fahrzeug geprüft. Es
 										wird geschaut ob der Zustand des
-										Fahrzeug mit der Beschreibung am Telefon
-										übereinstimmt.
+										Fahrzeugs mit der Beschreibung am
+										Telefon übereinstimmt.
 									</p>
 								</Typography>
 							</Box>
