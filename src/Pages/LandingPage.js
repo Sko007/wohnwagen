@@ -68,7 +68,6 @@ const useStyles = makeStyles((theme) => ({
 		[theme.breakpoints.down('md')]: {
 			backgroundImage: `url(${Dirksmall})`,
 			backgroundRepeat: 'no - repeat',
-			backgroundAttachment: 'fixed',
 			backgroundSize: 'cover',
 			height: 'auto',
 			display: 'flex',
