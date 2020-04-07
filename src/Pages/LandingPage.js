@@ -23,6 +23,7 @@ import DirectionsTransitIcon from '@material-ui/icons/DirectionsTransit';
 import ReplyIcon from '@material-ui/icons/Reply';
 import Dirk from '../Statics/dirk1_opacity.png';
 import Käufer from '../Statics/käufer.jpg';
+import Dirksmall from '../Statics/dirk1_opacity_small.png';
 
 function Copyright() {
 	return (
@@ -65,6 +66,15 @@ const useStyles = makeStyles((theme) => ({
 		height: 'auto',
 		display: 'flex',
 		justifyContent: 'flex-end',
+		[theme.breakpoints.down('md')]: {
+			backgroundImage: `url(${Dirksmall})`,
+			backgroundRepeat: 'no - repeat',
+			backgroundAttachment: 'fixed',
+			backgroundSize: 'cover',
+			height: 'auto',
+			display: 'flex',
+			justifyContent: 'flex-end',
+		},
 	},
 	icon1: {
 		[theme.breakpoints.down('md')]: {
