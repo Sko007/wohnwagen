@@ -52,11 +52,11 @@ const useStyles = makeStyles((theme) => ({
 			display: 'none',
 		},
 	},
-	logo: {
-		[theme.breakpoints.down('sm')]: {
-			display: 'none',
-		},
-	},
+	// logo: {
+	// 	[theme.breakpoints.down('sm')]: {
+	// 		display: 'none',
+	// 	},
+	// },
 	picture: {
 		backgroundImage: `url(${Dirk})`,
 		backgroundRepeat: 'no - repeat',
