@@ -209,8 +209,9 @@ export default function LandingPage() {
 							justifyContent: 'space-between',
 						}}
 					>
-						<Box>
-							<PhoneIcon></PhoneIcon> 05273/3608-0
+						<Box display="flex" flexWrap="wrap">
+							<PhoneIcon className={classes.icon1}></PhoneIcon>{' '}
+							05273/3608-0
 						</Box>
 					</Typography>
 				</Toolbar>
