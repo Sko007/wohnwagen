@@ -65,7 +65,6 @@ const useStyles = makeStyles((theme) => ({
 		backgroundSize: 'cover',
 		height: 'auto',
 		display: 'flex',
-		justifyContent: 'flex-end',
 		[theme.breakpoints.down('md')]: {
 			backgroundImage: `url(${Dirksmall})`,
 			backgroundRepeat: 'no - repeat',
@@ -73,7 +72,6 @@ const useStyles = makeStyles((theme) => ({
 			backgroundSize: 'cover',
 			height: 'auto',
 			display: 'flex',
-			justifyContent: 'flex-end',
 		},
 	},
 	icon1: {
