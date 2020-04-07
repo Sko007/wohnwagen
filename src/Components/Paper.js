@@ -60,8 +60,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - Experten geben ihnen einen
-						verbindlichen Preis für ihr Wohnmobil
+						2. Experten geben ihnen einen verbindlichen Preis für
+						ihr Wohnmobil
 					</strong>
 				</Typography>
 			</Paper>

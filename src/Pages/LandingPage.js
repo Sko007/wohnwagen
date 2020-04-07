@@ -53,11 +53,7 @@ const useStyles = makeStyles((theme) => ({
 			display: 'none',
 		},
 	},
-	// logo: {
-	// 	[theme.breakpoints.down('sm')]: {
-	// 		display: 'none',
-	// 	},
-	// },
+
 	picture: {
 		backgroundImage: `url(${Dirk})`,
 		backgroundRepeat: 'no - repeat',
@@ -173,12 +169,6 @@ export default function LandingPage() {
 				className={classes.appbar}
 			>
 				<Toolbar variant="dense" className={classes.toolBar}>
-					{/* <Box
-						display="flex"
-						// justifyContent="space-between"
-						flexWrap="wrap"
-					> */}
-					{/* <Box display="flex" justifyContent="flex-start"> */}
 					<img
 						className={classes.logo}
 						src={Brand}
@@ -189,13 +179,11 @@ export default function LandingPage() {
 							marginRight: 5,
 						}}
 					></img>
-					{/* </Box> */}
 					<img
 						className={classes.siegel}
 						src={Quality}
 						style={{}}
 					></img>
-					{/* <Box display="flex" justifyContent="flex-end"> */}
 					<Typography
 						variant="h5"
 						align="center"
@@ -211,12 +199,8 @@ export default function LandingPage() {
 							justifyContent: 'space-between',
 						}}
 					>
-						{/* <Box display="flex" flexWrap="wrap"> */}
 						<PhoneIcon></PhoneIcon> 05273/3608-0
-						{/* </Box> */}
 					</Typography>
-					{/* </Box> */}
-					{/* </Box> */}
 				</Toolbar>
 			</AppBar>
 			<main style={{ backgroundColor: 'white', fontFamily: 'open sans' }}>
@@ -740,10 +724,7 @@ export default function LandingPage() {
 								<Grid item></Grid>
 							</Grid>
 						</div>
-						{/* <hr></hr> */}
 					</Container>
-
-					{/* </div> */}
 				</div>
 			</main>
 			{/* Footer */}
