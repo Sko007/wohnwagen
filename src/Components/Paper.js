@@ -84,8 +84,9 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						4. Wohnmobil wird geprüft - Sie erhalten vereinbartern
-						Preis und 500 € Fahrtkostenpauschale
+						4. Wohnmobil wird geprüft - Sie erhalten den
+						vereinbartern Preis für ihr Wohnmobil und 500 €
+						Fahrtkostenpauschale
 					</strong>
 				</Typography>
 			</Paper>
