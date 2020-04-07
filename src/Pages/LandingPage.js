@@ -668,8 +668,8 @@ export default function LandingPage() {
 													fontFamily: 'open sans',
 												}}
 											>
-												Hat 5000 Euro für sein
-												Wohnwaagen bekommen
+												Hat 5000 Euro für sein Wohnwagen
+												bekommen!
 											</Typography>
 										</CardContent>
 										<CardActions></CardActions>
