@@ -49,7 +49,7 @@ export default function SimplePaper() {
 				></PhoneIcon>
 				<Typography>
 					<strong>
-						1. Heute anrufen - Montag bis Freitag von 8 -16 Uhr
+						1. Heute anrufen - Montag bis Freitag von 8 - 16 Uhr
 					</strong>
 				</Typography>
 			</Paper>
