@@ -60,8 +60,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						2. Expertenschätzung - Experten geben verbindlichen
-						Preis für Wohnmobil
+						2. Expertenschätzung - Experten geben ihnen einen
+						verbindlichen Preis für ihr Wohnmobil
 					</strong>
 				</Typography>
 			</Paper>
@@ -84,8 +84,8 @@ export default function SimplePaper() {
 
 				<Typography>
 					<strong>
-						4. Wohnmobil wird geprüft - vereinbarter Preis und 500 €
-						Fahrtkostenpauschale erhalten
+						4. Wohnmobil wird geprüft - Sie erhalten vereinbartern
+						Preis und 500 € Fahrtkostenpauschale
 					</strong>
 				</Typography>
 			</Paper>
