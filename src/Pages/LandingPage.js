@@ -112,6 +112,7 @@ const useStyles = makeStyles((theme) => ({
 		display: 'flex',
 		flexDirection: 'row',
 		justifyContent: 'space-between',
+		flexWrap: 'wrap',
 	},
 	appbar: {
 		backgroundColor: '#303030',
@@ -172,28 +173,29 @@ export default function LandingPage() {
 				className={classes.appbar}
 			>
 				<Toolbar variant="dense" className={classes.toolBar}>
-					<Box
+					{/* <Box
 						display="flex"
-						justifyContent="space-betweem"
+						// justifyContent="space-between"
 						flexWrap="wrap"
-					>
-						<img
-							className={classes.logo}
-							src={Brand}
-							style={{
-								height: 57,
-								width: 200,
-								marginTop: 3,
-								marginRight: 5,
-							}}
-						></img>
-
-						<img
-							className={classes.siegel}
-							src={Quality}
-							style={{}}
-						></img>
-					</Box>
+					> */}
+					{/* <Box display="flex" justifyContent="flex-start"> */}
+					<img
+						className={classes.logo}
+						src={Brand}
+						style={{
+							height: 57,
+							width: 200,
+							marginTop: 3,
+							marginRight: 5,
+						}}
+					></img>
+					{/* </Box> */}
+					<img
+						className={classes.siegel}
+						src={Quality}
+						style={{}}
+					></img>
+					{/* <Box display="flex" justifyContent="flex-end"> */}
 					<Typography
 						variant="h5"
 						align="center"
@@ -209,11 +211,12 @@ export default function LandingPage() {
 							justifyContent: 'space-between',
 						}}
 					>
-						<Box display="flex" flexWrap="wrap">
-							<PhoneIcon className={classes.icon1}></PhoneIcon>{' '}
-							05273/3608-0
-						</Box>
+						{/* <Box display="flex" flexWrap="wrap"> */}
+						<PhoneIcon></PhoneIcon> 05273/3608-0
+						{/* </Box> */}
 					</Typography>
+					{/* </Box> */}
+					{/* </Box> */}
 				</Toolbar>
 			</AppBar>
 			<main style={{ backgroundColor: 'white', fontFamily: 'open sans' }}>
