@@ -47,6 +47,11 @@ function Copyright() {
 }
 
 const useStyles = makeStyles((theme) => ({
+	numbers: {
+		[theme.breakpoints.down('sm')]: {
+			display: 'none',
+		},
+	},
 	logo: {
 		[theme.breakpoints.down('sm')]: {
 			display: 'none',
@@ -295,6 +300,7 @@ export default function LandingPage() {
 										style={{
 											fontFamily: 'open sans',
 										}}
+										className={classes.numbers}
 									>
 										1.
 									</Typography>
@@ -376,6 +382,7 @@ export default function LandingPage() {
 									<Typography
 										variant="h2"
 										align="center"
+										className={classes.numbers}
 										color="textSecondary"
 										paragraph
 										style={{
@@ -442,6 +449,7 @@ export default function LandingPage() {
 										align="center"
 										color="textSecondary"
 										paragraph
+										className={classes.numbers}
 										style={{
 											fontFamily: 'open sans',
 										}}
@@ -524,6 +532,7 @@ export default function LandingPage() {
 								>
 									<Typography
 										variant="h2"
+										className={classes.numbers}
 										align="center"
 										color="textSecondary"
 										paragraph
@@ -585,6 +594,7 @@ export default function LandingPage() {
 								>
 									<Typography
 										variant="h2"
+										className={classes.numbers}
 										align="center"
 										color="textSecondary"
 										paragraph
