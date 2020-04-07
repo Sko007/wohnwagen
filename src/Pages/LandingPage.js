@@ -312,24 +312,24 @@ export default function LandingPage() {
 										align="center"
 										color="textSecondary"
 										paragraph
-										style={{ maxWidth: 400, fontSize: 20 }}
+										style={{
+											maxWidth: 400,
+											fontSize: 20,
+
+											display: 'block',
+											marginblockstart: 1,
+											marginblockend: 1,
+											margininlinestart: 0,
+											margininlineend: 0,
+										}}
 									>
-										<p
-											style={{
-												display: 'block',
-												marginblockstart: 1,
-												marginblockend: 1,
-												margininlinestart: 0,
-												margininlineend: 0,
-											}}
-										>
-											{' '}
-											Im Telefonat wird der Zustand des
-											Wohnmobils durch gezielte Fragen
-											festgestellt. Dabei stehen der
-											erfahrene Dr. Dirk Benkel und seine
-											Partner zu Verfügung.
-										</p>
+										{' '}
+										Im Telefonat wird der Zustand des
+										Wohnmobils durch gezielte Fragen
+										festgestellt. Dabei stehen der erfahrene
+										Dr. Dirk Benkel und seine Partner zu
+										Verfügung.
+										{/* </p> */}
 									</Typography>
 								</Box>
 							</Box>
@@ -398,27 +398,24 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400, fontSize: 20 }}
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
 								>
-									<p
-										style={{
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Dr. Dirk Benkel führt das Autohaus in 4.
-										Generation. Es ist ein
-										Familienunternehmen wo eine zuverlässige
-										und kundenorientierte Arbeitsweise sowie
-										ein hohes Maß an Expertise
-										zusammenkommen. Deswegen sind er und
-										seine Mitarbeiter in der Lage ein
-										schnelles und verbindlichens Angebot zu
-										unterbreiten.
-									</p>
+									Dr. Dirk Benkel führt das Autohaus in 4.
+									Generation. Es ist ein Familienunternehmen
+									wo eine zuverlässige und kundenorientierte
+									Arbeitsweise sowie ein hohes Maß an
+									Expertise zusammenkommen. Deswegen sind er
+									und seine Mitarbeiter in der Lage ein
+									schnelles und verbindlichens Angebot zu
+									unterbreiten.
 								</Typography>
 							</Box>
 						</Box>
@@ -464,26 +461,23 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400, fontSize: 20 }}
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
 								>
-									<p
-										style={{
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Nachdem das Angebot abgegeben und ein
-										Termin vereinbart wurde. Fahren Sie ihr
-										Wohnmobil ins Weserbergland -
-										Blankenauer Straße 16, 37688 Beverungen.
-										Vor Ort wird das Fahrzeug geprüft. Es
-										wird geschaut ob der Zustand des
-										Fahrzeugs mit der Beschreibung am
-										Telefon übereinstimmt.
-									</p>
+									Nachdem das Angebot abgegeben und ein Termin
+									vereinbart wurde. Fahren Sie ihr Wohnmobil
+									ins Weserbergland - Blankenauer Straße 16,
+									37688 Beverungen. Vor Ort wird das Fahrzeug
+									geprüft. Es wird geschaut ob der Zustand des
+									Fahrzeugs mit der Beschreibung am Telefon
+									übereinstimmt.
 								</Typography>
 							</Box>
 
@@ -552,24 +546,22 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400, fontSize: 20 }}
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
 								>
-									<p
-										style={{
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Wenn das Wohnmobil verkauft wird,
-										erhalten Sie den vereinbarten Preis und
-										eine Fahrtkostenpauschale von € 500.
-										Dieses Geld wird ihnen Bar ausgezahlt
-										oder per Blitzüberweisung auf ein
-										gewünschtes Konto überwiesen.
-									</p>
+									Wenn das Wohnmobil verkauft wird, erhalten
+									Sie den vereinbarten Preis und eine
+									Fahrtkostenpauschale von € 500. Dieses Geld
+									wird ihnen Bar ausgezahlt oder per
+									Blitzüberweisung auf ein gewünschtes Konto
+									überwiesen.
 								</Typography>
 							</Box>
 						</Box>
@@ -615,22 +607,20 @@ export default function LandingPage() {
 									align="center"
 									color="textSecondary"
 									paragraph
-									style={{ maxWidth: 400, fontSize: 20 }}
+									style={{
+										maxWidth: 400,
+										fontSize: 20,
+										display: 'block',
+										marginblockstart: 1,
+										marginblockend: 1,
+										margininlinestart: 0,
+										margininlineend: 0,
+									}}
 								>
-									<p
-										style={{
-											display: 'block',
-											marginblockstart: 1,
-											marginblockend: 1,
-											margininlinestart: 0,
-											margininlineend: 0,
-										}}
-									>
-										Im Anschluss fährt Sie unser
-										Servicemitarbeiter zu einem nahe
-										gelegenen Bahnhof oder wenn möglich
-										direkt zu ihnen nach Hause.
-									</p>
+									Im Anschluss fährt Sie unser
+									Servicemitarbeiter zu einem nahe gelegenen
+									Bahnhof oder wenn möglich direkt zu ihnen
+									nach Hause.
 								</Typography>
 							</Box>
 						</Box>
